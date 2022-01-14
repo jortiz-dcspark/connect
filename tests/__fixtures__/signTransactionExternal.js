@@ -18,7 +18,7 @@ export default {
     tests: [
         {
             description: 'Testnet (P2PKH): presigned',
-            skip: ['1'], // todo: investigate
+            skip: ['1'],
             params: {
                 coin: 'Testnet',
                 inputs: [
@@ -80,7 +80,7 @@ export default {
         },
         {
             description: 'Testnet (P2SH): presigned',
-            skip: ['1'], // todo: investigate
+            skip: ['1'],
             params: {
                 coin: 'Testnet',
                 inputs: [
@@ -131,7 +131,7 @@ export default {
         },
         {
             description: 'Testnet (P2WPKH): presigned',
-            skip: ['1'], // todo: investigate
+            skip: ['1'],
             params: {
                 coin: 'Testnet',
                 inputs: [
@@ -177,7 +177,7 @@ export default {
         },
         {
             description: 'Testnet (P2WSH): presigned',
-            skip: ['1'], // todo: investigate
+            skip: ['1'],
             params: {
                 coin: 'Testnet',
                 inputs: [
@@ -218,7 +218,7 @@ export default {
         },
         {
             description: 'Testnet (P2TR): external presigned',
-            skip: ['1'], // todo: investigate
+            skip: ['1'],
             params: {
                 coin: 'Testnet',
                 inputs: [
@@ -264,7 +264,7 @@ export default {
         },
         {
             description: 'Testnet (P2WPKH): with proof',
-            skip: ['1'], // todo: investigate
+            skip: ['1'],
             params: {
                 coin: 'Testnet',
                 inputs: [
@@ -315,7 +315,7 @@ export default {
         },
         {
             description: 'Testnet (P2TR): with proof',
-            skip: ['1'], // todo: investigate
+            skip: ['1'],
             mnemonic: 'mnemonic_abandon', // <- important, external input is from all-all (previous case)
             params: {
                 coin: 'Testnet',
