@@ -21,8 +21,8 @@
     "main": "src/js/index.js",
     "browser": {
         "./lib/env/node": "./lib/env/browser",
-        "./lib/env/node/workers": "./lib/env/browser/workers",
-        "./lib/env/node/networkUtils": "./lib/env/browser/networkUtils"
+        "./lib/env/node/networkUtils": "./lib/env/browser/networkUtils",
+        "./lib/env/node/workers": "./lib/env/browser/workers"
     },
     "react-native": {
         "./lib/env/node": "./lib/env/react-native",
